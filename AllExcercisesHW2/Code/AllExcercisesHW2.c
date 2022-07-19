@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "string.h"
 
 int main() {
 
@@ -233,19 +234,21 @@ do{
 //-----------------------------------------------------------------
 
 	//Ex9 (Pattern1)
-	int i, j;
-//	int num = 0;
-
-	for(i=0; i<=9; i++)
-	{
-
-		for(j=i; j<=9; j++){
-
-			printf("% d  ",j);
-		}
-		printf("\n");
-
-	}
+//	int i, j;
+////	int num = 0;
+//
+//	for(i=0; i<=9; i++)
+//	{
+//
+//		for(j=i; j<=9; j++){
+//
+//			printf("% d  ",j);
+//		}
+//		printf("\n");
+//
+//	}
 	return 0;
 }
+
+
 
